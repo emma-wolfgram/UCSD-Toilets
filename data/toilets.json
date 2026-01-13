@@ -1,0 +1,19 @@
+{
+  "toilets": [
+    {
+      "name": "Geisel Library Basement Toilet",
+      "building": "Geisel Library (GL)",
+      "lat": 32.8810,
+      "lng": -117.2345,
+      "hours": "24/7"
+    },
+    {
+      "name": "Muir College Commons Toilet",
+      "building": "Muir Commons",
+      "lat": 32.8782,
+      "lng": -117.2379,
+      "hours": "7am — 10pm"
+    }
+    // Add more …
+  ]
+}
