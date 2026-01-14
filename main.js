@@ -11,7 +11,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // Custom toilet icon (optional)
 const toiletIcon = L.icon({
-  iconUrl: 'assets/icons/toilet marker.png',
+  iconUrl: 'assets/icons/toilet-marker.png',
   iconSize: [30, 30],
   iconAnchor: [15, 30],
   popupAnchor: [0, -30]
