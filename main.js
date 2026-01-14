@@ -10,9 +10,12 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Custom toilet icon (optional)
-L.marker([t.lat, t.lng])
-  .addTo(map)
-  .bindPopup(t.name);
+const toiletIcon = L.icon({
+  iconUrl: 'assets/icons/toilet-marker.png',
+  iconSize: [30, 30],
+  iconAnchor: [15, 30],
+  popupAnchor: [0, -30]
+});
 
 // Load toilet data
 fetch('data/toilets.json')
